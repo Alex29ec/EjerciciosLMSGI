@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cocteleria SYSTEM "cocteleria.dtd">
+<cocteleria direccion="Calle el taquito" nombre="El tacazo" telefono="957765498">
+  <cocteles>
+    <coctel codigo="RC" ingredientePrincipal="Coca-Cola">
+      <nombre>Ron-Cola</nombre>
+      <Alcohol/>
+      <precio coste="6" />
+      <existencias />
+    </coctel>
+    <coctel codigo="alisio">
+      <nombre>ALISIOS DE PASIÓN con &limon;</nombre>
+      <precio coste="5" />
+      <agotado />
+    </coctel>
+  </cocteles>
+  <ofertas>
+    <oferta coste="15">2x1 
+      <coctelReferido codigoCoctel="RC" Combinado="RC alisio" />
+    </oferta>
+  </ofertas>
+</cocteleria>
